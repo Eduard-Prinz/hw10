@@ -9,7 +9,7 @@ public class Main {
 
 
         String uppercaseFullName = fullName.toUpperCase();
-        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета - " + uppercaseFullName);
+        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета- " + uppercaseFullName);
 
 
         String firstName1 = "Семён";
@@ -17,6 +17,6 @@ public class Main {
         String lastName1 = "Иванов";
         String fullName1 = lastName1 + " " + firstName1 + " " + middleName1;
         fullName1 = fullName1.replace("ё", "е");
-        System.out.println("Данные Ф. И. О. сотрудника - " + fullName1);
+        System.out.println("Данные Ф. И. О. сотрудника- " + fullName1);
     }
 }
